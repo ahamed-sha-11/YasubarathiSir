@@ -7,6 +7,7 @@ function AboutComponents() {
       <section className="about">
         <div className="pun-container">
           <div className="hero-pun">
+            <p>who is yasu ?</p>
             <h1>
               a <span className="rainbow">vibrant </span>educator with boundless{" "}
               <span className="energy">energy</span> and a contagious enthusiasm
