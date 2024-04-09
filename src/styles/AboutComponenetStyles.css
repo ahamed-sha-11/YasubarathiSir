@@ -85,11 +85,16 @@
   .hero-pun h1 {
     font-size: 1.2rem;
     margin: 0;
-    text-transform: capitalize;
+   
     line-height: normal;
     /* border: 1px red solid; */
 
     position: relative;
+  }
+  .hero-pun p {
+ margin: 0;
+ font-size: 1rem;
+ margin-bottom: 10px;
   }
   .pun-explanation {
     width: 80%;
