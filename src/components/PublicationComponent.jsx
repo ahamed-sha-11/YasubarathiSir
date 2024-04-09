@@ -22,12 +22,12 @@ function Card({ cardData }) {
       <div className="card">
         <div className="card-data">
           <p> Name : {cardData.name}</p>
-          <p> Journal Name : {cardData.journal}</p>
-          <p> Date : {cardData.date_of_publication}</p>
-          <p> Volume/Issue : {cardData.volume_issue}</p>
-          <p> Impact Factor : {cardData.impact_factor}</p>
-          <p> ISSN : {cardData.ISSN}</p>
-          <p> Page Numbers : {cardData.page_numbers}</p>
+          <p> <strong>Journal Name : </strong> {cardData.journal}</p>
+          <p> <strong>Date : </strong> {cardData.date_of_publication}</p>
+          <p> <strong>Volume/Issue :</strong>{cardData.volume_issue}</p>
+          <p> <strong>Impact Factor : </strong>{cardData.impact_factor}</p>
+          <p> <strong>ISSN :</strong> {cardData.ISSN}</p>
+          <p> <strong>Page Numbers : </strong>{cardData.page_numbers}</p>
         </div>
       </div>
     </>
