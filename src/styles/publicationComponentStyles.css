@@ -52,9 +52,7 @@
     font-weight: bold;
   }
   
-  .card-data p span {
-    color: #6c757d;
-  }
+
   
   @media (min-width: 768px) {
     .card {
