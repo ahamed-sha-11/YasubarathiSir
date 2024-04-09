@@ -5,7 +5,7 @@ function PublicationComponents({ publicationdata }) {
   return (
     <>
       <section className="publication">
-        <h1>Publicatons</h1>
+        <h1>Publications</h1>
         <div className="card-holder">
           {publicationdata.map((cardData, index) => (
             <Card key={index} cardData={cardData} />

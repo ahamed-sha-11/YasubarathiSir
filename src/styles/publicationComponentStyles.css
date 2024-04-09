@@ -7,9 +7,10 @@
   
   .publication h1 {
     color: #343a40;
-    font-size: 24px;
+    font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
   }
   
   .card-holder {
