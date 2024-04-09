@@ -4,7 +4,7 @@ import resumepdf from "../assets/pdf/resume.pdf";
 function AboutComponents() {
   return (
     <>
-      <section className="about">
+      <section className="about" id = "about-yasu">
         <div className="pun-container">
           <div className="hero-pun">
             <p>who is yasu ?</p>

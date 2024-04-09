@@ -4,7 +4,7 @@ import "../styles/publicationComponentStyles.css";
 function PublicationComponents({ publicationdata }) {
   return (
     <>
-      <section className="publication">
+      <section className="publication" id="publications">
         <h1>Publications</h1>
         <div className="card-holder">
           {publicationdata.map((cardData, index) => (
