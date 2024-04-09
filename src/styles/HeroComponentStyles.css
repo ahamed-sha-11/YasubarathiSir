@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap'); */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: -moz-linear-gradient(rgba(27, 6, 6, 0.781),rgba(27, 6, 6, 0.781)),url("../assets/Images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-name
+{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    animation-delay: 3s;
+    /* width: 75%; */
+
+    margin: 25% 9% 0 15%;
+    gap: 16px;
+    animation: uptodown 2s ease-in-out forwards;
+}
+.hero-name h1{
+    font-size: 7rem;
+    /* font-family: "Limelight", sans-serif; */
+    /* font-family: 'Monster Chiller', sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: aliceblue;
+    position: relative;
+    text-transform: capitalize;
+}
+.hero-name :nth-child(1):after
+{
+    content: "DR.V.R YASU BHARATHI";
+    position: absolute;
+    font-size: 18%;
+    animation-delay: 6s;
+    font-weight: 400;
+    animation: downtoup 2s ease-in-out forwards;
+    top: 0;
+    left: 0;
+}
+.hero-name :nth-child(2):after
+{
+    content: "ASSISTANT PROFESSOR";
+    position: absolute;
+    animation-delay: 6s;
+    animation: uptodown 2s ease-in-out forwards;
+    font-size: 18%;
+    font-weight: 400;
+    bottom:  0;
+    right: 0;
+}
+
+
+/* Media query for phones */
+
+@media only screen and (max-width: 900px) {
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background-image: -moz-linear-gradient(rgba(27, 6, 6, 0.781),rgba(27, 6, 6, 0.781)),url("../assets/Images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+    .hero-name h1
+    {
+        font-size: 5rem;
+    }
+}
+
+/* Media query for phones */
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background-image: -moz-linear-gradient(rgba(27, 6, 6, 0.781),rgba(27, 6, 6, 0.781)),url("../assets/Images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+    .hero-name
+    {
+        justify-content: flex-start;
+    }
+    .hero-name h1
+    {
+        font-size: 3.6rem;
+    }
+}
+
+@keyframes downtoup
+{
+    0%
+    {
+        opacity: 0;
+        top: 10%;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes uptodown
+{
+    0%
+    {
+        opacity: 0;
+        bottom: 10%;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}

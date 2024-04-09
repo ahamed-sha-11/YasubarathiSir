@@ -1,0 +1,126 @@
+.about {
+  height: 60vh;
+  width: 100%;
+}
+.pun-container {
+  transition: 1s all;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.hero-pun {
+  width: 50%;
+}
+.hero-pun:hover {
+  cursor: url("../assets/Images/pointer.png"), auto;
+}
+.hero-pun:hover .energy {
+  color: goldenrod;
+  transition: 1s all;
+}
+.hero-pun h1 {
+  font-size: 3.5rem;
+  margin: 0 10%;
+  text-transform: capitalize;
+  line-height: 4rem;
+  /* border: 1px red solid; */
+
+  position: relative;
+}
+.hero-pun h1::after {
+  position: absolute;
+  content: " Who is Yasu ?";
+  top: -18%;
+  font-weight: 500;
+  left: 0;
+  font-size: 1.3rem;
+}
+.rainbow {
+  /* color: rebeccapurple; */
+  background: linear-gradient(to right, violet, indigo, blue);
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+.pun-explanation {
+  width: 50%;
+}
+.pun-explanation p {
+  font-size: 1.5rem;
+  margin: 0 10%;
+  line-height: 2rem;
+  margin-bottom: 5%;
+  text-transform: capitalize;
+}
+.pun-explanation a {
+  font-size: 1.5rem;
+  margin: 0 10%;
+  margin-top: 18px;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 12px;
+  font-weight: 400;
+  /* border: 1px black solid; */
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-pun h1::after {
+    top: -8%;
+  }
+  .about {
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .hero-pun h1::after 
+  {
+    top: -20%;
+    font-size: 1rem;
+  }
+  .pun-container {
+    flex-direction: column;
+  }
+  .hero-pun {
+    margin:5%;
+    width: 80%;
+  }
+  .hero-pun h1 {
+    font-size: 1.2rem;
+    margin: 0 ;
+    text-transform: capitalize;
+    line-height: normal;
+    /* border: 1px red solid; */
+  
+    position: relative;
+  }
+  .pun-explanation {
+    width: 80%;
+    border-left: 2px gray solid;
+  }
+  .pun-explanation p {
+    font-size: 1.15rem;
+    margin: 5%;
+    line-height: normal;
+    margin-bottom: 15%;
+    text-transform: capitalize;
+  }
+  .pun-explanation a {
+    font-size: 1.3rem;
+    margin-top: 18px;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 8%;
+    font-weight: 400;
+    /* border: 1px black solid; */
+    text-transform: capitalize;
+  }
+
+}

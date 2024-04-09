@@ -1,0 +1,5 @@
+    background-clip: content-box; /* Standard */
+-webkit-background-clip: content-box; /* Chrome, Safari, iOS Safari */
+-moz-background-clip: content-box; /* Firefox */
+-ms-background-clip: content-box; /* Internet Explorer */
+-o-background-clip: content-box; /* Opera */
