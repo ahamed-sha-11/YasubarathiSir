@@ -3,7 +3,7 @@ header {
   z-index: 10;
   background-color: black;
   display: flex;
-  width: 25px;
+  width: 30%;
   justify-content: space-between;
   padding: 10px;
   border-radius: 20px;
